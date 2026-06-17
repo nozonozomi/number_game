@@ -1,8 +1,10 @@
 import random
+import time
 
 answer = random.randint(100, 999)
 max_attempts = 10
 attempts = 0
+start_time = time.time()
 
 print("数字当てゲーム！！")
 print("100から999までの数字を当ててください")
