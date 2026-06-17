@@ -18,7 +18,7 @@ while attempts < max_attempts:
         elapsed_time = time.time() - start_time
         print("正解です！")
         print(f"{attempts} 回目で正解しました")
-        print(f"かかった時間: {elapsed_time:.2f} 秒")
+        print(f"かかった時間は {elapsed_time:.2f} 秒です")
         break
     
     print("不正解です")
