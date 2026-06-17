@@ -11,3 +11,4 @@ if guess == answer:
     print("正解です！")
 else:
     print("不正解です")
+    print(f"正解は {answer} でした。")
