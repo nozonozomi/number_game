@@ -15,15 +15,16 @@ while attempts < max_attempts:
     attempts += 1
     
     if guess == answer:
+        elapsed_time = time.time() - start_time
         print("正解です！")
         print(f"{attempts} 回目で正解しました")
+        print(f"かかった時間: {elapsed_time:.2f} 秒")
         break
     
     print("不正解です")
         
     if guess < answer:
-        print("もっと大きい数字です")
-            
+        print("もっと大きい数字です")       
     else:
         print("もっと小さい数字です")
 
