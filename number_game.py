@@ -11,4 +11,10 @@ if guess == answer:
     print("正解です！")
 else:
     print("不正解です")
+
+    if guess < answer:
+        print("もっと大きい数字です。")
+    else:
+        print("もっと小さい数字です。")
+        
     print(f"正解は {answer} でした。")
