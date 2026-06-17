@@ -25,6 +25,13 @@ while attempts < max_attempts:
     else:
         print("もっと小さい数字です")
 
+    difference = abs(answer-guess)
+
+    if difference <= 10:
+        print("ヒント: とても近いです！")
+    else:
+        print("ヒント: まだまだ遠いです")
+
     print(f"残り {max_attempts - attempts} 回です")
 
 if guess != answer:
