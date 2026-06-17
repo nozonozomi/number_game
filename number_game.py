@@ -1,7 +1,7 @@
 import random
 
 answer = random.randint(100, 999)
-max_attempts = 5
+max_attempts = 10
 attempts = 0
 
 print("数字当てゲーム！！")
