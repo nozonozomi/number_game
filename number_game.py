@@ -1,7 +1,7 @@
 import random
 
 answer = random.randint(100, 999)
-max_attempts = 10
+max_attempts = 5
 attempts = 0
 
 print("数字当てゲーム！！")
@@ -24,6 +24,8 @@ while attempts < max_attempts:
             
     else:
         print("もっと小さい数字です")
+
+    print(f"残り {max_attempts - attempts} 回です")
 
 if guess != answer:
         print("ゲームオーバーです")
