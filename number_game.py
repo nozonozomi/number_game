@@ -29,8 +29,10 @@ while attempts < max_attempts:
 
     if difference <= 10:
         print("ヒント: とても近いです！")
+    elif difference <= 50:
+        print("ヒント: 少し近いです")
     else:
-        print("ヒント: まだまだ遠いです")
+        print("ヒント: まだ離れています")
 
     print(f"残り {max_attempts - attempts} 回です")
 
